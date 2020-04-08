@@ -14,7 +14,12 @@ function setup(){
 
 
 function draw(){
-
+r=map(mouseX,0,1200,0,255);
+  g =map(mouseX,50,900,50,100);
+  b= map(mouseX,0,1200,255,0);
+  background(r,g,b);
+  fill(255);
+  ellipse(mouseX,100,50,50);
   // change the value of Red based on the mouse movement about the X axis
   // change the value of Green based on the mouse movement about the X axis
   // change the value of Blue based on the mouse movement about the X axis
